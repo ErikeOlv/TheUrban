@@ -1,0 +1,316 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+nav {
+    top: 0;
+    background-color: #000;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 100%;
+}
+
+.logo {
+    width: 70px;
+}
+
+body footer div {
+    margin: 5px auto;
+    display: inline-flex;
+}
+
+#logo:hover {
+    border: 2px solid #de3161;
+    box-sizing: border-box;
+}
+
+.marcas {
+    width: 20%;
+    margin: 1px auto;
+}
+
+main {
+    padding-top: 120px;
+}
+
+#artigo-checkbox {
+    display: none;
+  }
+
+.hidden {
+    display: none;
+  }
+
+div, .container {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.produto {
+    display: inline-block;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+button, #artigo-button, .form-button {
+    background: #fff;
+    border: 2px solid #de3161;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Poppins';
+    padding: 5px 20px;
+}
+
+button:hover, #artigo-button:hover, .form-button:hover {
+    background: #de3161;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+a:hover {
+    color: #de3161;
+    text-decoration: underline;
+}
+
+h1 {
+    width: 70%;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+.produto h3 {
+    margin-top: 10px;
+}
+
+#font {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+#font2 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+}
+
+.texto {
+    text-align: justify;
+    padding: 5px;
+}
+
+#info {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+img, .container {
+    border-radius: 10px;
+}
+
+.produto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.banner {
+    width: 100%;
+    margin: 0;
+}
+
+.banner img {
+    border-radius: 0px;
+}
+
+video {
+    width: 80%;
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.youtube {
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-bottom: 45%;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    padding-bottom: 50px;
+}
+
+#nome, #email {
+    padding: 7px 15px;
+    border: 2px solid #de3161;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+}
+
+#social {
+    width: 25px;
+    margin: 10px;
+  }
+
+#social:hover {
+    filter: contrast(0.5);
+}
+
+@media (min-width: 768px) {
+    nav {
+        height: 90px;
+    }
+
+    .container {
+        width: 60%;
+    }
+
+    button, #artigo-button, .form-button {
+        font-size: 15px;
+    }
+
+    .produto {
+        width: 30%;
+    }
+
+    ul {
+        width: 77%;
+    }
+
+    li {
+        width: 25%;
+    }
+    
+    a {
+        font-size: 17px;
+    }
+    
+    h1 {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    #font {
+        font-size: 25px;
+    }
+
+    #font2 {
+        font-size: 40px;
+    }
+
+    #info {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .foto {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .produto img {
+        width: 85%;
+    }
+
+    .marcas {
+        width: 8%;
+    }
+
+    video {
+        width: 50%;
+    }
+
+    .youtube {
+        width: 55%;
+        padding-bottom: calc(55% * 9 / 16); 
+    }
+
+    #nome, #email {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    h3 {
+        font-size: 15px;
+    }
+
+    .texto {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
